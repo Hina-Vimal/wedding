@@ -9,9 +9,13 @@
  *
  */
 $(document).ready(function(){
+    console.log( "ready" );
     document.getElementById("my_audio").play();
 });
-
+$( window ).on( "load", function() {
+        console.log( "window loaded" );
+        console.log('document.getElementById("my_audio")'+ document.getElementById("my_audio"));
+    });
 // Set the date we're counting down to
 var countDownDate = new Date("Feb 16, 2021 11:00:00").getTime();
 
