@@ -38,7 +38,7 @@ var x = setInterval(function() {
         clearInterval(x);
         document.getElementById("time").innerHTML = "Bless the married couple for happy life!";
     }
-    $('div.music').click();
+   
 }, 1000);
 
 // being a bit cool :p  
