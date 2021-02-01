@@ -488,7 +488,7 @@ body {
 }
 
 .container {
-	display: grid;
+	display: flex;
 	grid-template-columns: 1fr 1fr;
 	border-radius: 10px;
 	overflow: hidden;
